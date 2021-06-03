@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Custom Text
+file_extensions: [txt]
+scope: text.plain.txt
+contexts:
+  main:
+    # Start of unindented lines
+    - match: '^(?!\W|\d)\S.*\b+.*'
+      push:
+        - meta_scope: markup.heading
+        - match: '$\n?'
+          pop: true
+    # Words starting with *
+    - match: '(\*)(.*)'
+      captures:
+        1: punctuation.definition.italic
+    
+    # All Numbers not in headers
+    - match: '\d|(\.)(?=\d)(\d*)'
+      push:
+        - meta_scope: constant.numeric
+        - match: '(?!a-z)'
+          pop: true
+
+    # Lines starting with --
+    - match: '(\-\-)(.*)'
+      push:
+        - meta_scope: punctuation.accessor markup.italic
+        - match: '$\n?'
+          pop: true

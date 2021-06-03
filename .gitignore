@@ -1,0 +1,4 @@
+#Ignore Workspace and Project Files and .DS files
+.DS*
+*.sublime-project
+*.sublime-workspace

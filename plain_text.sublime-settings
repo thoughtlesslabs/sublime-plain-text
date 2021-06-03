@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/plain-text/plain_text.sublime-color-scheme",
+	"line_padding_bottom": 1,
+	"spell_check": true,
+	"font_size": 12,
+	"auto_indent": true,
+	"smart_indent": true,
+	"word_wrap": false,
+	"extensions":
+	[
+		"txt",
+	],
+
+}
