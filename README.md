@@ -1,6 +1,11 @@
 # sublime-plain-text
 A plain text editor with some basic functionality for Sublime Text
 
+### How to Install
+Clone this repository into your Packages folder for Sublime Text.
+
+It is automatically applied to all files ending with .txt
+
 ### Basic To Do List with some syntax
 
 done + tab - Using sublime completions this marks the line with "--", italicizes the text and changes its color to indicate a completed job
