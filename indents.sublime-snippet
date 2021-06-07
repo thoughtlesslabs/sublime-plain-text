@@ -5,11 +5,3 @@
 	*	${1:add task}]]></content>
     <description>bulleted list spacing</description>
 </snippet>
-
-<snippet>
-    <extensions>source.txt</extensions>
-    <tabTrigger>--</tabTrigger>
-    <content><![CDATA[
-	--]]></content>
-    <description>bulleted list spacing</description>
-</snippet>

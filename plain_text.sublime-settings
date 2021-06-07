@@ -6,6 +6,7 @@
 	"auto_indent": true,
 	"smart_indent": true,
 	"word_wrap": false,
+	"translate_tabs_to_spaces": false,
 	"extensions":
 	[
 		"txt",
