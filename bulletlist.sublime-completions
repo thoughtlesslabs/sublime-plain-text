@@ -6,7 +6,6 @@
             "annotation": "add bulleted list",
             "contents": " --",
             "kind": "snippet",
-            "details": "A simple, non-<code>async</code> function definition"
         }
     ]
 }
